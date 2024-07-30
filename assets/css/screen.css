@@ -1963,13 +1963,22 @@ Search                         LOGO                    Login Subscribe
     margin: clamp(40px, 3.64vw + 25.45px, 72px) 0 40px;
 }
 
+
 .gh-article-tag {
-    margin-bottom: 12px;
     font-size: 1.3rem;
     font-weight: 500;
     letter-spacing: 0.01em;
-    text-transform: uppercase;
     color: var(--ghost-accent-color);
+    display: inline-block;
+    padding: 0 12px;
+    border-radius: 5px;
+    background-color: #e0ebf5;
+}
+
+.gh-article-tag-container {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 16px;
 }
 
 .gh-article-title {
