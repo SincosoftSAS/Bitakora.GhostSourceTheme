@@ -2064,6 +2064,16 @@ Search                         LOGO                    Login Subscribe
     margin-top: 40px;
 }
 
+.gh-article-image-main {
+    grid-column: main ;
+    margin-top: 40px;
+}
+
+.gh-article-image-full {
+    grid-column: full ;
+    margin-top: 40px;
+}
+
 .gh-article-image img {
     width: 100%;
 }
